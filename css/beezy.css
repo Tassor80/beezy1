@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'Segoe Light';
+  src: url("../font/Light.woff");
+  font-weight: 300; }
+@font-face {
+  font-family: 'Segoe Regular';
+  src: url("../font/Regular.woff");
+  font-weight: 400; }
+@font-face {
+  font-family: 'Segoe Bold';
+  src: url("../font/Bold.woff");
+  font-weight: 700; }
+html {
+  box-sizing: border-box; }
+
+body {
+  background: #4155b1 url("../img/bg-mov.png") repeat-x 0 0; }
+  @media (min-width: 62.5rem) {
+    body {
+      background: #FFF url("../img/bg-des.png") repeat-x 0 0; } }
+
+@media (min-width: 62.5rem) {
+  .container {
+    box-sizing: border-box;
+    max-width: 67.8125rem;
+    margin: 0 auto;
+    background: url("../img/iphones-final.png") no-repeat 0 4.25rem;
+    padding-left: 31.875rem;
+    min-height: 56.875rem; } }
+
+.header {
+  padding-top: 2.1875rem;
+  margin-bottom: 1.8125rem; }
+  @media (min-width: 62.5rem) {
+    .header.centrar {
+      padding: 11.9375rem 0 0;
+      margin-bottom: 1.5625rem; } }
+
+.centrar {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem; }
+  @media (min-width: 62.5rem) {
+    .centrar {
+      padding-left: 0;
+      padding-right: 0; } }
+
+.logo {
+  fill: #FFF;
+  transition: .5s;
+  width: 7.25rem;
+  height: 2.3125rem;
+  margin: 0 auto; }
+  .logo svg {
+    width: 100%;
+    height: auto; }
+  .logo:hover {
+    fill: #f05638; }
+  @media (min-width: 62.5rem) {
+    .logo {
+      margin: 0;
+      width: 11.4375rem;
+      height: 3.625rem; } }
+
+.social {
+  display: none; }
+  .social .social-item:first-child {
+    margin-right: 0.625rem; }
+  @media (min-width: 62.5rem) {
+    .social {
+      display: flex;
+      justify-content: flex-end;
+      position: absolute;
+      top: 2.5rem;
+      right: 2.5rem; } }
+
+.introduction {
+  padding-top: 11.5625rem;
+  margin-bottom: 1.625rem; }
+  .introduction .introduction-title {
+    font-family: 'Segoe Light', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #FFF;
+    line-height: 1.17;
+    margin-bottom: 0.5625rem; }
+  .introduction .introduction-description {
+    font-family: 'Segoe Regular', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.87);
+    line-height: 1.5; }
+  @media (max-width: 62.5rem) {
+    .introduction {
+      background: url("../img/phones-mobile.png") no-repeat center 0; } }
+  @media (min-width: 62.5rem) {
+    .introduction {
+      padding-top: 0; }
+      .introduction .introduction-title {
+        font-size: 2.625rem;
+        text-align: left;
+        line-height: 1.14;
+        margin-bottom: 1.25rem; }
+      .introduction .introduction-description {
+        font-size: 1.5rem;
+        text-align: left;
+        line-height: 1.42; } }
+
+.o365 {
+  display: flex;
+  justify-content: center; }
+  .o365 .o365-input {
+    font-family: "Segoe Regular", sans-serif;
+    font-size: 1rem;
+    color: #9fa3a7;
+    padding: 0.625rem;
+    border: none;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    flex-grow: 1;
+    max-width: 13.75rem; }
+  .o365 .o365-send {
+    font-family: 'Segoe Bold', 'sans-serif';
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: #f05638;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border: none;
+    width: 5.75rem;
+    text-align: center;
+    letter-spacing: 0.175rem; }
+  @media (min-width: 62.5rem) {
+    .o365 {
+      justify-content: flex-start; }
+      .o365 .o365-input {
+        font-size: 1.25rem;
+        padding: 0.9375rem;
+        flex-grow: 1; }
+      .o365 .o365-send {
+        width: 7.625rem;
+        letter-spacing: 0.175rem; } }
+
+/*# sourceMappingURL=beezy.css.map */
